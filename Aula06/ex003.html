@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu primeiro programa</title>
+    <style>
+      body {
+        background-color: rgb(94, 94, 185);
+        color: white;
+        font: normal 20pt arial;
+      }
+
+      h1 {
+        color: rgb(129, 129, 43);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+      //(Obs: o comando window.prompt sempre vai retornar como uma string)
+      var n1 = Number(window.prompt("Digite um numero:")); //String
+      var n2 = Number(window.prompt("Digite outro número:")); //String
+      var s = n1 + n2;
+      window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`);
+
+      //(number + number) ele vai identificar como adição
+      //(string + string) ele vai identificar como concatenação
+    </script>
+  </body>
+</html>

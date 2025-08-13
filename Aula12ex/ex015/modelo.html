@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Título</h1>
+    </header>
+    <section>
+      Ano de nascimento: <input type="number" name="txt1" id="txt1" />
+      <p></p>
+      <div>
+        Masculino: <input type="radio" name="sex" id="sexm" />
+        <p></p>
+        Feminino: <input type="radio" name="sex" value="Feminino" id="sexf" />
+        <input type="button" value="calcular" onclick="verificar()" />
+      </div>
+
+      <div id="res"></div>
+    </section>
+    <footer>
+      <p>&copy;CloudZ</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

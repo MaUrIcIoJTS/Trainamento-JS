@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>condicionais</title>
+    <style>
+      #res {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Você é gringo?</h1>
+    <input type="text" nome="caixa1" id="txt" />
+    <input type="button" value="calcular" onclick="verificar()" />
+    <div id="res"></div>
+
+    <script>
+      function verificar() {
+        var texto = document.getElementById("txt");
+        var res = document.getElementById("res");
+        var a = texto.value;
+        if (a == "Brasil") {
+          res.innerHTML = `Você é do <strong>${a}</strong>!<P></P>`;
+          res.innerHTML += "Você é Brasileiro!";
+        } else {
+          res.innerHTML = "Você é gringo!";
+        }
+      }
+    </script>
+  </body>
+</html>

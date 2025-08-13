@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos DOM</title>
+    <style>
+      div#area {
+        background-color: green;
+        color: white;
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="area">interaja...</div>
+    <script>
+      var a = window.document.querySelector("div#area");
+      a.addEventListener("click", clicar);
+      a.addEventListener("mouseenter", entrou);
+      a.addEventListener("mouseout", saiu);
+
+      function clicar() {
+        //muda a msg para clicou e adiciona uma borda radius
+        a.innerText = "Clicou!";
+        a.style.borderRadius = "50%";
+        a.style.background = "red";
+      }
+
+      function entrou() {
+        //muda a cor para preto quando o mouse entra na div
+        a.style.background = "black";
+      }
+
+      function saiu() {
+        //volta para a cor verde após o mouse sair da div
+        a.style.background = "green";
+      }
+    </script>
+  </body>
+</html>

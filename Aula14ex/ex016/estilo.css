@@ -1,0 +1,82 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  background: rgb(120, 120, 248);
+  font: normal 15pt Arial;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  margin-left: 5px;
+}
+
+input[type="button"] {
+  background-color: #4caf50;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.329);
+}
+
+input[type="button"]:hover {
+  background-color: #034b05a2;
+}
+div#res {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.144);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+input[type="number"] {
+  margin: 15px;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.096);
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+}
+
+#resul {
+  background-color: rgba(0, 0, 0, 0.144);
+  appearance: none;
+  text-align: center;
+  width: 130px;
+  height: 170px;
+  margin: 10px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- Contagem -->
+
+    <header>
+      <h1>Vamos contar</h1>
+    </header>
+    <section>
+      <label for="inicio">
+        Inicio:
+        <input type="number" name="inicio" id="inicio" />
+      </label>
+      <label for="fim"
+        >Fim:
+        <input type="number" name="fim" id="fim" />
+      </label>
+      <label for="passo"
+        >Passo:
+        <input type="number" name="passo" id="passo" />
+      </label>
+      <div>
+        <input type="button" value="Somar" onclick="somar()" />
+      </div>
+
+      <div id="res">Preparando a contagem...</div>
+    </section>
+
+    <!-- Multiplicação -->
+
+    <h1>Vamos multiplicar</h1>
+    <section>
+      <label for="valor"
+        >Insira o valor a ser multiplicado:<br />
+        <input type="number" name="num" id="num" placeholder="Valor" />
+      </label>
+      <div>
+        <input type="button" value="Somar" onclick="verificar()" />
+      </div>
+
+      <div>
+        <select name="result" id="resul" size="10"></select>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy;CloudZ</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

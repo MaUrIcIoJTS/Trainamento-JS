@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Video locadora</h1>
+    </header>
+    <section>
+      <div>
+        <p>Titulo: <input type="text" id="inTitulo" /></p>
+        <p>
+          Duração(min) <input type="number" name="duracao" id="inDuracao" />
+        </p>
+        <input
+          type="button"
+          value="Converter em horas e minutos"
+          id="btConverter"
+        />
+      </div>
+      <div>
+        <p id="outTitulo"></p>
+        <p id="outDuracao"></p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy;CloudZ</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
