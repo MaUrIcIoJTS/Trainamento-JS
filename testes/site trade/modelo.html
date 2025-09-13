@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tabela Trade</h1>
+    </header>
+    <section>
+      <div id="box1">
+        <p>
+          Valor operação:
+          <input type="text" name="vlOperacao" id="inOperacao" />
+        </p>
+        <p>
+          Preço entrada: <input type="text" name="vlPreco" id="inEntrada" />
+        </p>
+        <p>
+          Alavancagem:
+          <input type="text" name="vlAlavancagem" id="inAlavancagem" />
+        </p>
+        <p>StopGain (%): <input type="text" name="stopGain" id="inGain" /></p>
+        <p>StopLoss (%): <input type="text" name="stopLoss" id="inLoss" /></p>
+        <p>
+          <input type="button" value="Verificar operação" id="btCalcular" />
+        </p>
+        <div><pre id="outRes"></pre></div>
+    </section>
+    <footer>
+      <p>&copy;CloudZ</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
